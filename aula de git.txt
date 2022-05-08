@@ -1,0 +1,35 @@
+Ls - listar arquivos da pasta 
+
+git status 
+
+git add * adicionar tudo para staged
+
+
+git commit -m "texto"
+
+git push origin master (empurrar) 
+
+git pull origin master (puxar) 
+
+
+Para resolver o conflito eu abro o arquivo e faço as alterações necessárias, commit no arquivo e push para o github 
+
+
+Baixar do github Clone 
+
+copiar o url
+
+git clone + url 
+
+git remote -v (tras os repositorios remotos dos quais baixei)
+
+
+
+
+
+
+
+
+
+
+
