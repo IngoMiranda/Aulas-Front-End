@@ -1,4 +1,15 @@
 footer{
 
+   
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+
+
     background-color: turquoise;
+}
+footer > a{
+
+    padding: 5px;
 }

@@ -1,6 +1,7 @@
 main{
-
+    height: 86vh;
     display: flex;
+
 
     background-color: tomato;
 }
