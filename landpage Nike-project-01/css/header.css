@@ -12,7 +12,25 @@ header{
 }
 
 
+
 ul{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+        
+}
+
+ul li{
+
+    padding: 5px;
+    margin-left: 50px;
+    transition: all 1s;
+}
+
+
+nav li:hover {
+    color: #646162;
+    background-color: rgb(255, 255, 255);
+    
+
+
 }
