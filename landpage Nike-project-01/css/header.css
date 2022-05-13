@@ -1,6 +1,5 @@
 header{
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 32px;
     gap: 20px;
@@ -11,8 +10,11 @@ header{
 
 }
 
-
-
+nav{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
 ul{
     display: flex;
     gap: 10px;
