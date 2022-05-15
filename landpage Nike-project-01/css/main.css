@@ -1,7 +1,35 @@
 main{
-    height: 86vh;
+    /* height: 86vh; */
+    display: flex;
+   
+   
+}
+
+.sapato-sub01{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section01{
+
     display: flex;
 
+}
 
-    background-color: tomato;
+.sapato-sub02{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section02{
+
+    display: flex;
+
 }
