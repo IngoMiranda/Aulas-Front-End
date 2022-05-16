@@ -1,22 +1,14 @@
 footer{
 
-   
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
-    padding: 10px;
-
-
-    background-color: turquoise;
-}
-footer > a{
-
-    padding: 5px;
+    background-color: rgb(186, 186, 186)
 }
 
-footer > div{
+.icon{
 
     display: flex;
     gap: 30px;

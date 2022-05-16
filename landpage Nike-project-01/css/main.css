@@ -1,10 +1,23 @@
 main{
-    /* height: 86vh; */
+    height: 100%;
     display: flex;
    
    
 }
 
+main h1{
+
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+main p{
+    width: 800px;
+    font-size: 24px;
+
+    
+}
 .sapato-sub01{
     width: 100%;
     display: flex;
@@ -17,7 +30,18 @@ main{
 .section01{
 
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
 
+}
+
+.texto{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .sapato-sub02{
