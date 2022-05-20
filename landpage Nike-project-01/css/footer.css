@@ -1,6 +1,7 @@
 footer{
-
+    
     width: 100vw;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,5 +12,9 @@ footer{
 .icon{
 
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    padding: 20px;
     gap: 30px;
 }

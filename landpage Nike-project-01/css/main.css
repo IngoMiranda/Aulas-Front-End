@@ -28,11 +28,10 @@ main p{
 }
 
 .section01{
-
+    width: 800px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     gap: 20px;
+    
 
 }
 
