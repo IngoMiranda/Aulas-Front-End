@@ -1,0 +1,54 @@
+Unidades de medidas do CSS moderno.
+
+https://desenvolvimentoparaweb.com/css/unidades-css-rem-vh-vw-vmin-vmax-ex-ch/
+
+
+em- é definido pelo font-size da página;
+
+ex. body {font-size: 16px;}
+
+Todos dos elemento filhos herdarão esse tamanho.
+
+
+1.2 = 16 * 1.2
+
+rem usa o padrão de fonte do document-html
+
+vh e  vw
+
+A medida vh é igual a 1/100 da altura da viewport. Então, por exemplo, se a altura do navegador é 900px, 1vh equivale a 9px.
+
+E, analoga
+
+
+vmin e vmax
+
+Enquanto vh e vw estão sempre relacionados com a altura e largura da viewport, respectivamente, as unidades de CSS moderno vmin e vmax estão relacionados com o valor máximo e mínimo destas larguras e alturas, dependendo de qual é a menor e a maior.
+
+Por exemplo, se o navegador foi ajustado para 1100px de largura e a altura 700px, 1vmin seria 7px e 1vmax seria 11px.
+
+Se a largura foi ajustada para 800px e a altura definida para 1080px, vmin seria igual a 8px e vmax 10.8px.
+
+
+
+
+ex e ch
+
+
+
+
+A unidade ch (“character unit” ou “unidade-caractere”) é definida como sendo a “medida avançada” da largura do caractere zero (“0”).
+
+Algumas considerações muito interessantes sobre o que isso significa podem ser encontradas no blog de Eric Meyers, mas o conceito básico é:
+
+Dada uma fonte com espaçamento uniforme, uma caixa com uma largura de N unidades-caractere, como width: 40ch, sempre pode conter uma string com 40 caracteres nesta determinada fonte.
+
+A unidade ex é definida como “a altura-x da fonte atual ou a metade de 1em”.
+
+A “altura-x” de uma determinada fonte é a altura do caractere “x” em minúsculo dessa fonte.
+
+Muitas vezes, trata-se da “marca do meio” da fonte.
+
+
+
+

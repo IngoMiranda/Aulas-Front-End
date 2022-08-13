@@ -1,0 +1,31 @@
+BOX-SIZING 
+
+inclui os valos de padding e de border dentro dos valores originais que detreminamos em largura e altura.
+
+Pode modificar o box-model
+
+1- content box
+2- border box 
+
+
+TABELAS 
+
+existe uma hieraquia nas tabelas 
+
+
+	<table> 
+	
+		<tr> linha
+
+			<td>Dados</td>
+
+		</tr>
+
+
+
+
+	</table>
+
+
+
+

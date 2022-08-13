@@ -1,0 +1,20 @@
+Box-model 
+
+1- conteúdo área de mídia
+
+	width: ;
+	heigth:; 
+
+2- preenchimento interno espaço entre o conteúdo interno 
+
+	padding: 1- top 2- right 3- bottom 4- left;
+
+3- Borda limite do box
+
+	
+	border: 2px solid #ff00;
+	
+
+4- distância que separa um box do outro
+
+	margin:0px auto;  
