@@ -45,3 +45,12 @@ body{
 
 
 }
+.saction01{
+
+    width: 100%;
+    position: relative;
+}
+.banner{
+    width: 100%;
+    position: absolute;
+}
