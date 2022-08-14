@@ -17,14 +17,14 @@ body{
     padding: 5px;
     
 }
-.menu01{
+#menu01{
 
     display: flex;
     padding: 20px;
     
 }
 
-.menu01 ul{
+#menu{
     display: none;
     width: 100vw;
     height: 100vh;
@@ -35,6 +35,13 @@ body{
     background-color: blanchedalmond;
 
 }
-.menu01 li{
+#menu li{
   padding: 20px;
+}
+
+#menu01.active #menu{
+
+    display: block;
+
+
 }
