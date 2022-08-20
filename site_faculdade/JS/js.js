@@ -12,3 +12,4 @@ function abriMenu(event){
 btnMenu.addEventListener('click', abriMenu);
 btnMenu.addEventListener('touchstart', abriMenu);
 // btnMenu.addEventListener('touch', abriMenu);
+

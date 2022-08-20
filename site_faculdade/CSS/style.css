@@ -105,9 +105,11 @@ para que apareça na tela precisa de um conteúdo. Nesse caso que não há conte
 .saction01{
 
     width: 100%;
+    position: relative;
       
 }
 .banner{
     width: 100%;
+    position: absolute;
 }
 
