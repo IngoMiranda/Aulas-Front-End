@@ -13,6 +13,7 @@ btnMenu.addEventListener('click', abriMenu);
 btnMenu.addEventListener('touchstart', abriMenu);
 // btnMenu.addEventListener('touch', abriMenu);
 
+//slider
 var intervalo= 0;
 
 var maxSlider= document.querySelectorAll(".banner").length -1;
@@ -34,5 +35,5 @@ function acao(){
 
         img[intervalo].style.display= "block";
 
-    },3000)
+    },5000)
 }
