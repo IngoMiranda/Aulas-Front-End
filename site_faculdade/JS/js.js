@@ -13,3 +13,26 @@ btnMenu.addEventListener('click', abriMenu);
 btnMenu.addEventListener('touchstart', abriMenu);
 // btnMenu.addEventListener('touch', abriMenu);
 
+var intervalo= 0;
+
+var maxSlider= document.querySelectorAll(".banner").length -1;
+
+acao();
+
+function acao(){
+    let img = document.querySelectorAll(".banner")
+
+    setInterval(function(){
+
+        img[intervalo].style.display= "none";
+        intervalo++;
+
+        if(intervalo > maxSlider){
+
+            intervalo = 0;
+        }
+
+        img[intervalo].style.display= "block";
+
+    },3000)
+}
