@@ -1,5 +1,7 @@
 body{
+    height: 100vh;
     background-color: brown;
+
 }
 .navegação{
     width: 100%;
@@ -133,7 +135,7 @@ para que apareça na tela precisa de um conteúdo. Nesse caso que não há conte
     align-items: center;
     position: relative;
     width: 350px;
-    height: 312px;
+    height: 350px;
     left: 20px;
     top: 250px; 
     padding: 45px 22px;
@@ -161,8 +163,22 @@ para que apareça na tela precisa de um conteúdo. Nesse caso que não há conte
     margin-bottom: 10px;
     padding: 10px; 
     font-size: larger;
+    font-weight: 800;
+    color: #B41446;
+    text-transform: uppercase;
    
 
+
+}
+#enviar{
+
+    width: 230px;
+    height: 80px;
+    padding: 10px;
+    font-size: 10pt;
+    font-weight: 800;
+    color: #B41446;
+    text-transform: uppercase;
 
 }
 
