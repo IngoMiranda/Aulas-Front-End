@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+
+            background-color: gray;
+            color: white
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
     <title>Grandes tabelas</title>
 </head>
 <body>
@@ -11,9 +30,41 @@
     <!--anatomia de tabelas grandes
 
         table
-            thead
+            theader
+                tr td th
             tbody
+                 tr td th
+            tfooter
+                 tr td th
+
     
     -->
+    <table>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"> 45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"> 19.597.330</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num"> 8.796.448</td>
+            </tr>
+            
+
+        </tbody>
+        <tfoot>
+            <th>Total da população</th>
+            <td class="num">0000</td>
+        </tfoot>
+
+    </table>
 </body>
 </html>
