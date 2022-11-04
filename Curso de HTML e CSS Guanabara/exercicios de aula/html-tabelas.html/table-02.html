@@ -30,6 +30,7 @@
     <!--anatomia de tabelas grandes
 
         table
+            caption
             theader
                 tr td th
             tbody
@@ -40,9 +41,10 @@
     
     -->
     <table>
+        <caption>Caption- legenda da tabela</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
         </thead>
         <tbody>
             <tr>
@@ -66,5 +68,17 @@
         </tfoot>
 
     </table>
+
+    <p>Escopo do TH é um título 
+
+        Eu posso definir os grupos e dizer para o HTML que existe um grupo colunas.
+    </p>
+    <p>
+        Quando eu quero dizer que determinado grupo faz parte de um título numa mesma coluna. 
+        uso <strong>scope = "col"</strong> 
+    </p>
+    <p> 
+        para uma mesma linha uso  <strong>scope = "row"</strong>
+    </p>
 </body>
 </html>
